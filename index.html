@@ -42,6 +42,28 @@
 
     <div class="grid-container" id="bookList"></div>
 
+    <!-- Add this template for the book card -->
+    <template id="book-card-template">
+      <div class="book-card">
+        <div class="book-header">
+          <h3 class="book-title"></h3>
+          <div class="menu-container">
+            <button class="menu-button">&#8942;</button>
+            <div class="menu-content">
+              <a href="#" class="toggle-read">Toggle Read</a>
+              <a href="#" class="delete-book">Delete</a>
+            </div>
+          </div>
+        </div>
+        <p class="book-author"></p>
+        <p class="book-pages"></p>
+        <p class="book-read"></p>
+      </div>
+    </template>
+    <a href="https://jameswallace.tech" class="logo-link">
+      <img src="jwlogo.png" alt="JW Logo" class="logo-image" />
+    </a>
+
     <script src="script.js"></script>
   </body>
 </html>
